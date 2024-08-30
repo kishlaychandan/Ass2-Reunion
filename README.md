@@ -1,8 +1,24 @@
-# React + Vite
+# Reunion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-brightgreen)](https://ass2-reunion.vercel.app/)
 
-Currently, two official plugins are available:
+Reunion is a web application that allows users to explore a variety of houses available for rent. Users can view details about each house, such as the price, location, number of beds, baths, and the area of the house. The app also includes a "like" feature, where users can save their favorite houses by clicking on the heart icon.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Dashboard**: Displays a list of houses with their details.
+- **Like/Unlike Functionality**: Users can add houses to their favorites list by clicking the heart icon.
+- **Favourites Page**: A dedicated page where users can view all their liked houses.
+- **Filter and Search**: Includes components for filtering and searching houses (components implemented but not included in the provided code).
+
+## Demo
+
+Check out the live version of the project: [Reunion on Vercel](https://ass2-reunion.vercel.app/)
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/reunion.git
