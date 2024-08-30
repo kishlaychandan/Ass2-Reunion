@@ -1,0 +1,55 @@
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.filterCards{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.filterdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.filterdiv p{
+    font-size: 1.2rem;
+}
+.filterdiv input{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    /* color: black; */
+    border: 1px solid black;
+}
+.filterdiv select{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+.filterCards .submit{
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    background-color: rgb(59, 59, 250);
+    color: white;
+}
+
+
+@media screen and (max-width:1000px) {
+    .filterCards{
+        flex-direction: column;
+        gap: 0.7rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

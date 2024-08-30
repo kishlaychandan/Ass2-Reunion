@@ -1,0 +1,27 @@
+.dashboard{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 239, 239);
+}
+.cards{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .cards{
+        width: 90%;
+        /* min-width: 16rem; */
+    }
+}

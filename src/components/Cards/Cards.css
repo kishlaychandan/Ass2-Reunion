@@ -1,0 +1,60 @@
+
+.card{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 0.8rem;
+    gap: 1rem;
+    background-color: antiquewhite;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0.8rem;
+}
+.details .priceFav{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+.details .priceFav .fav{
+    color: white;
+    font-size: 1.6rem;
+}
+
+.details .priceFav .price{
+    font-size: 2rem ;
+    color: blue;
+}
+.details .name{
+    font-size: 1.8rem;
+}
+.details .location{
+    font-size: 1.3rem;
+    color: rgb(100, 99, 99);
+}
+.details .size{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    color: rgb(100, 99, 99);
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+.card img{
+    width: 100%;
+    /* height: 100%; */
+    border-top-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .card{
+        /* width: 90%; */
+        min-width: 16rem;
+    }
+}
